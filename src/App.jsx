@@ -8,10 +8,6 @@ import {
   FAQ,
 } from "./components/storage";
 
-function Button(props) {
-  return <button className={props.buttonStyle}>{props.buttonText}</button>;
-}
-
 function App() {
   return (
     <div>
